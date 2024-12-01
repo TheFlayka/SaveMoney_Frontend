@@ -1,5 +1,5 @@
 <script setup lang="ts"></script>
 
-<template><p class="font-second-main">Fonts €</p></template>
+<template><p>test</p></template>
 
 <style scoped></style>
