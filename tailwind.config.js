@@ -5,7 +5,7 @@ export default {
 		extend: {},
 		fontFamily: {
 			main: ['Dela Gothic One'],
-			'second-main': ['Poppins'],
+			second: ['Poppins'],
 			currency: ['Trocchi'],
 		},
 	},

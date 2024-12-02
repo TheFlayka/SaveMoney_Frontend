@@ -1,5 +1,11 @@
 <script setup lang="ts"></script>
 
-<template><p class="font-second-main">Fonts €</p></template>
+<template>
+	<router-view v-slot="{ Component }">
+		<transition name="router-view">
+			<component :is="Component" />
+		</transition>
+	</router-view>
+</template>
 
 <style scoped></style>
